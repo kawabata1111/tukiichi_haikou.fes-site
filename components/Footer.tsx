@@ -1,18 +1,23 @@
 import React from 'react';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
 
-const Footer: React.FC = () => {
+type PageType = 'home' | 'privacy' | 'legal' | 'about';
+
+interface FooterProps {
+  onNavigate: (page: PageType) => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
     <footer id="contact" className="bg-brand-text text-white py-16">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12">
-          
+
           {/* Org Info */}
           <div className="md:w-1/2">
             <h2 className="text-2xl font-bold mb-4 font-maru">ツキイチはいこう文化祭</h2>
             <p className="text-gray-400 mb-6 font-medium leading-relaxed">
-              「ツキイチは、いこう！」という文化を北九州から全国へ。<br/>
-              人が集い、挑戦が生まれ、地域が好きになる循環をつくります。
+              「ツキイチは、いこう！」という文化を北九州から全国へ。人が集い、挑戦が生まれ、地域が好きになる循環をつくります。
             </p>
             <div className="space-y-2 text-sm text-gray-300">
                 <p>運営：ツキイチはいこう文化祭実行委員会</p>
@@ -35,11 +40,32 @@ const Footer: React.FC = () => {
                     <Twitter size={24} />
                 </a>
              </div>
-             
+
              <ul className="flex flex-wrap gap-6 text-sm font-bold text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">プライバシーポリシー</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">特定商取引法に基づく表記</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">運営概要</a></li>
+                <li>
+                  <button
+                    onClick={() => onNavigate('privacy')}
+                    className="hover:text-white transition-colors"
+                  >
+                    プライバシーポリシー
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => onNavigate('legal')}
+                    className="hover:text-white transition-colors"
+                  >
+                    特定商取引法に基づく表記
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => onNavigate('about')}
+                    className="hover:text-white transition-colors"
+                  >
+                    運営概要
+                  </button>
+                </li>
              </ul>
           </div>
         </div>

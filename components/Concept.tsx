@@ -61,16 +61,11 @@ const Concept: React.FC = () => {
           </h2>
           <div className="max-w-3xl mx-auto space-y-6 text-lg md:text-xl leading-relaxed text-gray-700">
             <p>
-              廃校となった旧門司特別支援学校を舞台に、<br/>
-              <span className="font-bold text-brand-accent text-2xl">「月に一度、行きたくなる場所」</span><br/>
-              をコンセプトとした体験型・参加型の地域文化祭です。
+              廃校となった旧門司特別支援学校を舞台に、
+              <span className="font-bold text-brand-accent text-2xl">「月に一度、行きたくなる場所」</span>をコンセプトとした体験型・参加型の地域文化祭です。
             </p>
             <p>
-              単なるイベントではなく、<br className="hidden md:block" />
-              地域の人・お店・学生・企業が交わる<br/>
-              <span className="font-bold bg-yellow-100 px-2">“地域のテーマパーク”</span><br className="md:hidden" />
-              のような居場所づくりを目指し、<br/>
-              継続的なにぎわいと関係人口の創出に取り組んでいます。
+              単なるイベントではなく、地域の人・お店・学生・企業が交わる<span className="font-bold bg-yellow-100 px-2">"地域のテーマパーク"</span>のような居場所づくりを目指し、継続的なにぎわいと関係人口の創出に取り組んでいます。
             </p>
           </div>
         </div>

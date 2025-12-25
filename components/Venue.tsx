@@ -31,7 +31,7 @@ const Venue: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">お車でお越しの方</h4>
-                    <p className="text-sm text-gray-600">校庭に無料駐車場がございます（約50台）。<br/>※満車の場合は近隣のコインパーキングをご利用ください。</p>
+                    <p className="text-sm text-gray-600">校庭に無料駐車場がございます（約50台）。満車の場合は近隣のコインパーキングをご利用ください。</p>
                   </div>
                 </div>
                 
@@ -41,7 +41,7 @@ const Venue: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">公共交通機関でお越しの方</h4>
-                    <p className="text-sm text-gray-600">西鉄バス「白野江二丁目」バス停より徒歩3分。<br/>JR門司港駅よりバスで約20分。</p>
+                    <p className="text-sm text-gray-600">西鉄バス「白野江二丁目」バス停より徒歩3分。JR門司港駅よりバスで約20分。</p>
                   </div>
                 </div>
               </div>

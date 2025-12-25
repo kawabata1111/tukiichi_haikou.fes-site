@@ -24,7 +24,7 @@ const Organization: React.FC = () => {
                     という文化を北九州から全国へ。
                 </h3>
                 <p className="text-lg md:text-xl font-medium text-gray-600">
-                    人が集い、挑戦が生まれ、<br className="md:hidden"/>地域が好きになる循環をつくります。
+                    人が集い、挑戦が生まれ、地域が好きになる循環をつくります。
                 </p>
             </div>
             

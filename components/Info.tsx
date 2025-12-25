@@ -26,7 +26,7 @@ const Info: React.FC = () => {
                     調整中
                 </p>
                 <p className="text-sm text-gray-500">
-                    決まり次第、公式サイト・SNSで<br/>お知らせします
+                    決まり次第、公式サイト・SNSでお知らせします
                 </p>
             </div>
 
@@ -40,7 +40,7 @@ const Info: React.FC = () => {
                     調整中
                 </p>
                 <p className="text-sm text-gray-500">
-                    詳細なタイムテーブルは<br/>後日公開予定です
+                    詳細なタイムテーブルは後日公開予定です
                 </p>
             </div>
 
@@ -54,7 +54,7 @@ const Info: React.FC = () => {
                     無料<span className="text-base font-normal ml-1">(予定)</span>
                 </p>
                 <p className="text-sm text-gray-500 mt-2">
-                    ※一部有料コンテンツが<br/>ある場合があります
+                    ※一部有料コンテンツがある場合があります
                 </p>
             </div>
         </div>
@@ -66,8 +66,7 @@ const Info: React.FC = () => {
 
             <h3 className="text-2xl font-bold mb-4 relative z-10">最新情報はSNSでチェック！</h3>
             <p className="text-gray-600 mb-8 relative z-10 leading-relaxed">
-                開催日程や出店者情報、イベントの準備の様子などは<br className="hidden md:block"/>
-                公式Instagramでいち早くお届けしています。ぜひフォローしてください！
+                開催日程や出店者情報、イベントの準備の様子などは公式Instagramでいち早くお届けしています。ぜひフォローしてください！
             </p>
             
             <a 

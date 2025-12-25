@@ -33,9 +33,9 @@ const Recruit: React.FC = () => {
                     <p className="text-gray-600 mb-6 leading-relaxed">
                         飲食店、ハンドメイド雑貨、ワークショップなど、あなたの「好き」や「得意」を表現してみませんか？初めての方もサポートします。
                     </p>
-                    <button className="w-full bg-brand-yellow text-brand-text font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2 hover:bg-yellow-300 transition-colors shadow-sm">
-                        出店要項を見る <ArrowRight size={20} />
-                    </button>
+                    <a href="mailto:monthlyhaikoufestival@gmail.com?subject=出店応募について" className="w-full bg-brand-yellow text-brand-text font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2 hover:bg-yellow-300 transition-colors shadow-sm">
+                        出店応募 <ArrowRight size={20} />
+                    </a>
                 </div>
             </div>
 
@@ -52,9 +52,9 @@ const Recruit: React.FC = () => {
                     <p className="text-gray-600 mb-6 leading-relaxed">
                         会場設営、受付、キッズエリアの見守りなど。学生からシニアまで、幅広い世代のメンバーが活躍しています。友達作りにも！
                     </p>
-                    <button className="w-full bg-brand-blue text-white font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2 hover:bg-blue-300 transition-colors shadow-sm">
-                        ボランティアに応募する <ArrowRight size={20} />
-                    </button>
+                    <a href="mailto:monthlyhaikoufestival@gmail.com?subject=ボランティア応募について" className="w-full bg-brand-blue text-white font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2 hover:bg-blue-300 transition-colors shadow-sm">
+                        ボランティア応募 <ArrowRight size={20} />
+                    </a>
                 </div>
             </div>
         </div>
@@ -65,11 +65,11 @@ const Recruit: React.FC = () => {
                     <Mail className="text-brand-accent" />
                     お問い合わせ
                 </h3>
-                <p className="mb-6 text-sm text-gray-500">
-                    ご質問や取材のご依頼は、下記フォームまたはメールにてご連絡ください。
+                <p className="mb-4 text-sm text-gray-500">
+                    ご質問や取材のご依頼は、下記メールアドレスまでご連絡ください。
                 </p>
-                <a href="mailto:monthlyhaikoufestival@gmail.com" className="block w-full bg-gray-800 text-white font-bold py-3 rounded-lg hover:bg-gray-700 transition-colors">
-                    お問い合わせフォームへ
+                <a href="mailto:monthlyhaikoufestival@gmail.com" className="inline-block text-lg md:text-xl font-bold text-brand-accent hover:underline">
+                    monthlyhaikoufestival@gmail.com
                 </a>
              </div>
         </div>
