@@ -11,7 +11,7 @@ const Recruit: React.FC = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-16">
             <span className="block text-brand-accent font-bold tracking-widest mb-2">JOIN US</span>
-            <h2 className="text-4xl md:text-5xl font-black text-brand-text">
+            <h2 className="text-3xl md:text-5xl font-black text-brand-text whitespace-nowrap">
               仲間になりませんか？
             </h2>
             <p className="mt-4 text-gray-600">

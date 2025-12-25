@@ -18,7 +18,7 @@ const Concept: React.FC = () => {
       icon: <ShoppingBag className="w-8 h-8 text-white" />,
       desc: "ハンドメイド雑貨や地元の野菜マルシェ。ここでしか出会えない一点物を探そう。",
       color: "bg-blue-400",
-      img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80",
+      img: "/images/buy.png",
       rotate: "-rotate-1"
     },
     {

@@ -123,7 +123,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ onBack, onNavigate }) => {
         <div className="bg-brand-text text-white rounded-3xl p-8 md:p-12 mb-12">
           <h2 className="text-2xl font-bold mb-6">私たちのミッション</h2>
           <p className="text-xl md:text-2xl font-bold leading-relaxed mb-4">
-            「ツキイチは、いこう！」という文化を<br className="hidden md:block" />
+            <span className="whitespace-nowrap">「ツキイチは、いこう！」</span>という文化を<br className="hidden md:block" />
             北九州から全国へ。
           </p>
           <p className="text-gray-300 leading-relaxed">

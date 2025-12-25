@@ -18,7 +18,7 @@ const Organization: React.FC = () => {
             
             <div className="text-center relative z-10">
                 <h3 className="text-2xl md:text-3xl font-black text-brand-text mb-8 leading-normal">
-                    <span className="inline-block border-b-4 border-brand-yellow pb-2">
+                    <span className="inline-block border-b-4 border-brand-yellow pb-2 whitespace-nowrap">
                     「ツキイチは、いこう！」
                     </span><br/>
                     という文化を北九州から全国へ。

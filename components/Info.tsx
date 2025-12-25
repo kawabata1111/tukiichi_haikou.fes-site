@@ -64,7 +64,7 @@ const Info: React.FC = () => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-brand-yellow/20 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-brand-blue/20 rounded-tr-full -ml-6 -mb-6 transition-transform group-hover:scale-110"></div>
 
-            <h3 className="text-2xl font-bold mb-4 relative z-10">最新情報はSNSでチェック！</h3>
+            <h3 className="text-2xl font-bold mb-4 relative z-10">最新情報はSNSで<br className="md:hidden" />チェック！</h3>
             <p className="text-gray-600 mb-8 relative z-10 leading-relaxed">
                 開催日程や出店者情報、イベントの準備の様子などは公式Instagramでいち早くお届けしています。ぜひフォローしてください！
             </p>
@@ -73,7 +73,7 @@ const Info: React.FC = () => {
               href="https://www.instagram.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all relative z-10"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold text-sm md:text-base py-3 px-6 md:px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all relative z-10 whitespace-nowrap"
             >
                 <Instagram size={20} />
                 公式Instagramを見る
