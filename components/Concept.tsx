@@ -9,7 +9,7 @@ const Concept: React.FC = () => {
       icon: <Utensils className="w-8 h-8 text-white" />,
       desc: "地域のグルメやキッチンカーが大集合。懐かしい給食メニューも登場するかも？",
       color: "bg-orange-400",
-      img: "https://images.unsplash.com/photo-1565123409695-7b5ef63a2c43?auto=format&fit=crop&w=400&q=80",
+      img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80",
       rotate: "rotate-2"
     },
     {
@@ -18,7 +18,7 @@ const Concept: React.FC = () => {
       icon: <ShoppingBag className="w-8 h-8 text-white" />,
       desc: "ハンドメイド雑貨や地元の野菜マルシェ。ここでしか出会えない一点物を探そう。",
       color: "bg-blue-400",
-      img: "https://images.unsplash.com/photo-1531058000305-1658998ea8af?auto=format&fit=crop&w=400&q=80",
+      img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80",
       rotate: "-rotate-1"
     },
     {
@@ -36,7 +36,7 @@ const Concept: React.FC = () => {
       icon: <Smile className="w-8 h-8 text-white" />,
       desc: "広い校庭や体育館を使ったアクティビティ。校舎全体を使った謎解き探検も！",
       color: "bg-pink-400",
-      img: "https://images.unsplash.com/photo-1472162072954-aa4cd16c7921?auto=format&fit=crop&w=400&q=80",
+      img: "https://images.unsplash.com/photo-1540479859555-17af45c78602?auto=format&fit=crop&w=400&q=80",
       rotate: "-rotate-2"
     }
   ];

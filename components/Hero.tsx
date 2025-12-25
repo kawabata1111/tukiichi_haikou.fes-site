@@ -6,9 +6,9 @@ const Hero: React.FC = () => {
     <section id="top" className="relative h-screen min-h-[600px] w-full overflow-hidden flex items-center justify-center">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1920&q=80" 
-          alt="School Classroom Background" 
+        <img
+          src="/images/hero.png"
+          alt="ツキイチはいこう文化祭"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-yellow-50/20 mix-blend-multiply"></div>

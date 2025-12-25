@@ -55,23 +55,20 @@ const Venue: React.FC = () => {
             </div>
           </div>
 
-          {/* Map Image/Frame */}
+          {/* Map */}
           <div className="lg:w-1/2 w-full order-1 lg:order-2">
             <div className="relative rounded-3xl overflow-hidden shadow-[8px_8px_0px_0px_rgba(255,244,92,1)] border-4 border-white transform rotate-1 hover:rotate-0 transition-transform duration-500">
-              {/* Placeholder for Map - In a real app, use Google Maps Embed API */}
-              <div className="bg-gray-200 w-full h-[400px] flex items-center justify-center relative">
-                 <img 
-                  src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80" 
-                  alt="Map Location" 
-                  className="w-full h-full object-cover opacity-80"
-                />
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <div className="bg-white/90 p-4 rounded-xl shadow-lg text-center">
-                        <p className="font-bold text-gray-500">Google Maps</p>
-                        <p className="text-xs text-gray-400">※ここに実際の地図を埋め込みます</p>
-                    </div>
-                </div>
-              </div>
+              <iframe
+                src="https://maps.google.com/maps?q=%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%8C%97%E4%B9%9D%E5%B7%9E%E5%B8%82%E9%96%80%E5%8F%B8%E5%8C%BA%E7%99%BD%E9%87%8E%E6%B1%9F3%E4%B8%81%E7%9B%AE28-1&output=embed&hl=ja"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="旧門司特別支援学校の地図"
+                className="w-full h-[400px]"
+              />
             </div>
           </div>
 

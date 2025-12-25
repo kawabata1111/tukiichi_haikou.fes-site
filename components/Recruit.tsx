@@ -23,7 +23,7 @@ const Recruit: React.FC = () => {
             {/* Vendor Recruit */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl group hover:shadow-2xl transition-all duration-300">
                 <div className="h-48 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1531058000305-1658998ea8af?auto=format&fit=crop&w=600&q=80" alt="Marche" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                    <img src="/images/vendor.png" alt="出店者募集" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                         <Store className="text-white w-12 h-12" />
                     </div>
