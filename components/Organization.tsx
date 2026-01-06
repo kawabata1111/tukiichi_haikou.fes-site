@@ -47,10 +47,13 @@ const Organization: React.FC = () => {
                         <Users className="text-brand-accent" />
                         実行委員会について
                     </h3>
-                    <p className="text-gray-700 leading-loose mb-10">
+                    <p className="text-gray-700 leading-loose mb-4">
                         ツキイチはいこう文化祭 実行委員会は、廃校となった旧門司特別支援学校を拠点に活動しています。
                         単にイベントを開催するだけでなく、地域の方々、事業者様、そして未来を担う学生たちが主体的に関われる
                         「地域の居場所」を持続的に運営することを使命としています。
+                    </p>
+                    <p className="text-sm text-gray-500 mb-10">
+                        ※本イベントは、共生社会の実現を目指し、就労継続支援B型事業所と連携し、工賃向上にも寄与します。
                     </p>
 
                     <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-3 border-b-2 border-gray-200 pb-2">

@@ -33,8 +33,8 @@ const Recruit: React.FC = () => {
                     <p className="text-gray-600 mb-6 leading-relaxed">
                         飲食店、ハンドメイド雑貨、ワークショップなど、あなたの「好き」や「得意」を表現してみませんか？初めての方もサポートします。
                     </p>
-                    <a href="mailto:monthlyhaikoufestival@gmail.com?subject=出店応募について" className="w-full bg-brand-yellow text-brand-text font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2 hover:bg-yellow-300 transition-colors shadow-sm">
-                        出店応募 <ArrowRight size={20} />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRWjKjCcPFN9zgeT7Bb3tYRDd2c4wcPEbDk-91eCK7jztAxA/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="w-full bg-brand-yellow text-brand-text font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2 hover:bg-yellow-300 transition-colors shadow-sm">
+                        出店者応募はこちら <ArrowRight size={20} />
                     </a>
                 </div>
             </div>

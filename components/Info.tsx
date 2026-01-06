@@ -17,30 +17,30 @@ const Info: React.FC = () => {
 
         <div className="grid md:grid-cols-3 gap-6">
             {/* Card 1: Date */}
-            <div className="bg-white rounded-3xl p-8 text-center shadow-lg border-b-8 border-gray-300 transform hover:-translate-y-2 transition-transform">
-                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 text-gray-500">
+            <div className="bg-white rounded-3xl p-8 text-center shadow-lg border-b-8 border-brand-accent transform hover:-translate-y-2 transition-transform">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-accent">
                     <CalendarDays size={32} />
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-gray-800">開催日程</h3>
-                <p className="text-brand-accent font-black text-2xl my-4">
-                    調整中
+                <h3 className="text-xl font-bold mb-2 text-gray-800">開催日</h3>
+                <p className="text-brand-accent font-black text-xl my-4">
+                    1月10日 / 2月21日 / 3月14日
                 </p>
                 <p className="text-sm text-gray-500">
-                    決まり次第、公式サイト・SNSでお知らせします
+                    ※その後は毎月第2土曜日
                 </p>
             </div>
 
             {/* Card 2: Time */}
-            <div className="bg-white rounded-3xl p-8 text-center shadow-lg border-b-8 border-gray-300 transform hover:-translate-y-2 transition-transform delay-100">
-                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 text-gray-500">
+            <div className="bg-white rounded-3xl p-8 text-center shadow-lg border-b-8 border-brand-blue transform hover:-translate-y-2 transition-transform delay-100">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-blue">
                     <Clock size={32} />
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">開催時間</h3>
-                <p className="text-brand-accent font-black text-2xl my-4">
-                    調整中
+                <p className="text-brand-blue font-black text-2xl my-4">
+                    11:00〜17:00
                 </p>
                 <p className="text-sm text-gray-500">
-                    詳細なタイムテーブルは後日公開予定です
+                    &nbsp;
                 </p>
             </div>
 
@@ -51,10 +51,10 @@ const Info: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">入場料</h3>
                 <p className="text-green-500 font-black text-3xl my-2">
-                    無料<span className="text-base font-normal ml-1">(予定)</span>
+                    無料
                 </p>
                 <p className="text-sm text-gray-500 mt-2">
-                    ※一部有料コンテンツがある場合があります
+                    &nbsp;
                 </p>
             </div>
         </div>

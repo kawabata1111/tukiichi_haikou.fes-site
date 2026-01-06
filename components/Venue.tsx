@@ -31,7 +31,7 @@ const Venue: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">お車でお越しの方</h4>
-                    <p className="text-sm text-gray-600">校庭に無料駐車場がございます（約50台）。満車の場合は近隣のコインパーキングをご利用ください。</p>
+                    <p className="text-sm text-gray-600">校庭に無料駐車場がございますが、台数に制限があるため、可能な限り乗り合わせてお越しください。</p>
                   </div>
                 </div>
                 
@@ -49,7 +49,7 @@ const Venue: React.FC = () => {
               <div className="mt-8 pt-6 border-t border-gray-100">
                 <p className="text-sm text-gray-500 bg-gray-50 p-4 rounded-xl">
                   <span className="font-bold block mb-1">💡 会場の特徴</span>
-                  海と山に囲まれた自然豊かな廃校です。懐かしい教室や長い廊下、広い校庭がそのまま残っています。上履きをご持参いただくと、より校内探索を楽しめます！
+                  海と山に囲まれた自然豊かな廃校です。懐かしい教室や長い廊下、広い校庭がそのまま残っています。<span className="font-bold text-brand-accent">上履き不要（※土足OK）</span>
                 </p>
               </div>
             </div>
