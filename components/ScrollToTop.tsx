@@ -27,7 +27,7 @@ const ScrollToTop: React.FC = () => {
   }, []);
 
   return (
-    <div className={`fixed bottom-8 right-8 z-40 transition-all duration-300 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+    <div className={`fixed bottom-8 right-8 z-40 transition-all duration-300 transform hidden lg:block ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
       <button
         onClick={scrollToTop}
         className="bg-brand-yellow text-brand-text p-4 rounded-full shadow-lg hover:bg-yellow-300 hover:-translate-y-1 transition-all border-2 border-brand-text"

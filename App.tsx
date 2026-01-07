@@ -23,7 +23,14 @@ const App: React.FC = () => {
     const handleScroll = () => {
       if (currentPage !== 'home') return;
 
-      const sections: SectionId[] = ['top', 'concept', 'organization', 'venue', 'schedule', 'recruit', 'contact'];
+      // Check if scrolled to bottom for contact section
+      const isAtBottom = window.innerHeight + window.scrollY >= document.body.scrollHeight - 100;
+      if (isAtBottom) {
+        setActiveSection('contact');
+        return;
+      }
+
+      const sections: SectionId[] = ['top', 'concept', 'organization', 'venue', 'schedule', 'recruit'];
 
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -67,7 +74,7 @@ const App: React.FC = () => {
     <div className="w-full min-h-screen bg-white text-brand-text font-maru">
       <SideNav activeSection={activeSection} />
 
-      <main className="w-full">
+      <main className="w-full pb-20 lg:pb-0">
         <Hero />
         <Concept />
         <Organization />

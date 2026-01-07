@@ -34,7 +34,7 @@ const Concept: React.FC = () => {
       title: "遊ぶ",
       en: "PLAY",
       icon: <Smile className="w-8 h-8 text-white" />,
-      desc: "広い校庭や体育館を使ったアクティビティ。校舎全体を使った謎解き探検も！",
+      desc: "豆柴とふれあう体験、フォトブースでの写真撮影、教室内での体験型コンテンツなど。",
       color: "bg-pink-400",
       img: "https://images.unsplash.com/photo-1540479859555-17af45c78602?auto=format&fit=crop&w=400&q=80",
       rotate: "-rotate-2"
@@ -59,13 +59,26 @@ const Concept: React.FC = () => {
               </svg>
             </span>
           </h2>
-          <div className="max-w-3xl mx-auto space-y-6 text-lg md:text-xl leading-relaxed text-gray-700">
-            <p>
-              廃校となった旧門司特別支援学校を舞台に、
-              <span className="font-bold text-brand-accent text-2xl">「月に一度、行きたくなる場所」</span>をコンセプトとした体験型・参加型の地域文化祭です。
+          <div className="max-w-3xl mx-auto text-base md:text-xl leading-loose md:leading-relaxed text-gray-700 text-center">
+            <p className="mb-6">
+              <span className="inline-block">廃校となった</span>
+              <span className="inline-block">旧門司特別支援学校を舞台に、</span>
+              <br className="hidden md:block" />
+              <span className="font-bold text-brand-accent text-xl md:text-2xl inline-block">「月に一度、行きたくなる場所」</span>
+              <span className="inline-block">をコンセプトとした</span>
+              <br className="hidden md:block" />
+              <span className="inline-block">体験型・参加型の地域文化祭です。</span>
             </p>
             <p>
-              単なるイベントではなく、地域の人・お店・学生・企業が交わる<span className="font-bold bg-yellow-100 px-2">"地域のテーマパーク"</span>のような居場所づくりを目指し、継続的なにぎわいと関係人口の創出に取り組んでいます。
+              <span className="inline-block">単なるイベントではなく、</span>
+              <br className="hidden md:block" />
+              <span className="inline-block">地域の人・お店・学生・企業が交わる</span>
+              <br className="hidden md:block" />
+              <span className="font-bold bg-yellow-100 px-2 inline-block">"地域のテーマパーク"</span>
+              <span className="inline-block">のような居場所づくりを目指し、</span>
+              <br className="hidden md:block" />
+              <span className="inline-block">継続的なにぎわいと</span>
+              <span className="inline-block">関係人口の創出に取り組んでいます。</span>
             </p>
           </div>
         </div>
